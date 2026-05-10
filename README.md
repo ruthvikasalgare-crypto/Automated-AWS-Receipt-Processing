@@ -37,3 +37,49 @@ In this video, we'll be going through the following steps.
 3. Delete DynamoDB Table: Remove stored receipt data and then delete the table.
 4. Disable SES Notifications: If SES was configured, remove verified email addresses.
 5. Remove IAM Roles and Policies: Delete the IAM role created for the Lambda function.
+
+
+
+# AWS Services Configuration Screenshots
+
+## 1. Lambda Function Code
+
+![Lambda Function Code](screenshots/Lambdafunction_code.jpg)
+
+---
+
+## 2. Lambda Trigger Configuration
+
+![Lambda Trigger](screenshots/Lambdafunction_Configuration.jpg)
+
+---
+
+## 3. Amazon S3 Receipt Upload
+
+![S3 Upload](screenshots/s3_sample_receipt_upload.jpg)
+
+---
+
+## 4. DynamoDB Table
+
+![DynamoDB Table](screenshots/dynomodb_table.jpg)
+
+---
+
+## 5. IAM Role Permissions
+
+![IAM Role](screenshots/iam_role.jpg)
+
+---
+
+## 6. Amazon SES Email Verification
+
+![SES Verification](screenshots/SES_Email_Verified.jpg)
+
+---
+
+## 7. CloudWatch Logs
+
+![CloudWatch Logs](screenshots/Cloudwatch.jpg)
+
+---
